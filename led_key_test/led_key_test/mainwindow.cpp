@@ -14,6 +14,9 @@ MainWindow::MainWindow(QWidget *parent) :
 
     l = new led(this, Qt::red, 2);
     l->setGeometry(3, 3, 3, 3);
+
+    l = new led(this, Qt::red, 3);
+    l->setGeometry(3, 33, 3, 3);
 }
 
 MainWindow::~MainWindow()
