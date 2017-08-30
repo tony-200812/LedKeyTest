@@ -15,7 +15,7 @@ class led : public QWidget
 {
     Q_OBJECT
 public:
-    explicit led(QWidget *parent = 0, QColor color = Qt::red, quint8 led_no = 0);
+    explicit led(QWidget *parent = 0, quint8 led_no = 0, QColor color = Qt::red);
 
 signals:
 

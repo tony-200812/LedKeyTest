@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-05-13T15:10:23
+# Project created by QtCreator 2017-05-17T21:42:38
 #
 #-------------------------------------------------
 
@@ -14,9 +14,9 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    led.cpp
+    led.cpp \
+    pannel.cpp
 
 HEADERS  += mainwindow.h \
+    pannel.h \
     led.h
-
-FORMS    += mainwindow.ui

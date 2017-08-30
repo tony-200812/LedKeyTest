@@ -5,7 +5,7 @@
 #include <QDebug>
 #include <QTimer>
 
-led::led(QWidget *parent, QColor color, quint8 led_no) : QWidget(parent)
+led::led(QWidget *parent, quint8 led_no, QColor color) : QWidget(parent)
 {
     setAttribute(Qt::WA_StaticContents);
     setFixedSize(20, 20);
